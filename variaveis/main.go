@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	x := 10 == 10
+	_, hello := "Hello, World!", "Oi!"
 
-	fmt.Printf("x: %v, %T\n", x, x)
+	fmt.Println(hello)
 
 }
