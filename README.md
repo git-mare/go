@@ -16,13 +16,14 @@
     - O operador de declaração em um escopo é o :=. Ele não pode ser utilizado fora de um codeblock.
         - Exemplo: n1 := 10
     - O operador de atribuição é o =.
-        - Exemplo: n1 = 20
+        - Exemplo: n1 = 15
     - No primeiro exemplo, n1 é declarado contendo o valor 10, enquanto no segundo, é atribuído outro valor a variável n1.
     - A declaração de uma variável fora de um codeblock é feita da seguinte maneira:
-        - var n1 = 10
+        - var n1 = 5
     - O operador de comparação é o ==.
-        - Exemplo: n1 := 10 == 10
+        - Exemplo: n2 := 10 == 10
         - Saída: true
+    - [Exemplo completo em código]()
 
 
 
