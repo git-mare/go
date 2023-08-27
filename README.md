@@ -23,7 +23,7 @@
     - O operador de comparação é o ==.
         - Exemplo: n2 := 10 == 10
         - Saída: true
-    - [Exemplo completo em código]()
+    - [Exemplo completo em código](https://github.com/git-mare/go/blob/main/operadores/main.go)
 
 
 
