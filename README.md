@@ -6,6 +6,10 @@
     
 - Variáveis
     - Uma variável não pode ser declarada sem um propósito. Caso contrário o código não roda.
+    - Não pode haver dois valores em apenas uma variável;
+    - Caso haja este cenário, uma solução para resolver, é utilizar o underscore (_) para que o código não dê problema.
+    - [Exemplo](https://github.com/git-mare/go/blob/main/variaveis/main.go)
+    - No exemplo acima, o código simplesmente pega o valor "Hello, World!" e joga fora, pois está sendo armazenado em _.
     - Uma variável não pode ser utilizada antes de ser declarada.
 
 - Operadores
