@@ -1,7 +1,7 @@
 # Anotações de Estudos - Go Lang
 
 ## Conceitos Básicos
-- Keyword package e projetos com mais de um arquivo
+- Sobre a palavra-chave *package* e projetos GO que possuem arquivos a serem importados no arquivo principal
     - A palavra-chave package é utilizada para declarar a qual pacote um arquivo pertence. Serve para organizar um projeto em diferentes arquivos.
     - [Exemplo da estrutura de um projeto](https://github.com/git-mare/go/blob/main/exemplo-package/main.go)
     - Para criar um projeto na própria máquina, é necessário inicia-los no diretório em que o Go foi instalado.
@@ -32,6 +32,7 @@
 
 
 
+## Tópicos ainda não vistos
 - Tipos de Dados
 - Estruturas de Controle (if, for, switch)
 - Funções e Escopo
