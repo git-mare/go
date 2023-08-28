@@ -3,7 +3,8 @@
 ## Conceitos Básicos
 - Sobre a palavra-chave *package* e projetos GO que possuem arquivos a serem importados no arquivo principal
     - A palavra-chave package é utilizada para declarar a qual pacote um arquivo pertence. Serve para organizar um projeto em diferentes arquivos.
-    - [Exemplo da estrutura de um projeto](https://github.com/git-mare/go/blob/main/exemplo-package/main.go)
+    - [Exemplo da estrutura de um projeto](https://github.com/git-mare/go/blob/main/exemplo-package/)
+    - [Arquivo principal da estrutura de um projeto](https://github.com/git-mare/go/blob/main/exemplo-package/main.go)
     - Para criar um projeto na própria máquina, é necessário inicia-los no diretório em que o Go foi instalado.
     - Para descobrir onde foi instalado, digite no terminal: go env GOPATH. Navegue até o diretório retornado pelo terminal e crie uma pasta chamada src.
     - Após estar no diretório do projeto, digite no terminal: go mod init NomeDaPasta.
