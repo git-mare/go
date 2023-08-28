@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"fmt" // biblioteca importada da própria linguagem GO
 
-	"exemplo-package/math"
+	"exemplo-package/math" // diretório importado da pasta do projeto
 )
 
 func main() {
