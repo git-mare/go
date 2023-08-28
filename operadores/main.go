@@ -14,7 +14,7 @@ func main() {
 	n1 = 15
 	fmt.Println("valor atribuido", n1)
 
-	n2 := 10 == 10 // operação de comparação
+	n2 := 10 == 10 // exemplo de operação de comparação
 	fmt.Println(n2)
 
 }
