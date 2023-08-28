@@ -33,6 +33,9 @@
         - Saída: true
     - [Exemplo completo em código](https://github.com/git-mare/go/blob/main/operadores/main.go)
 
+- Tipos de Dados
+      - Em GO, quando o tipo de uma variável é declarada, ele não pode ser modificado. Se uma variável for declarada int, ela será int e nada mais.
+
 ## Recursos Adicionais
 - [Layout padrão de projetos em Go](https://github.com/golang-standards/project-layout/blob/master/README_ptBR.md)
 - [Guia para GO](https://github.com/caioreix/go4noobs#go4noobs)
