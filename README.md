@@ -6,9 +6,11 @@
     - [Exemplo da estrutura de um projeto](https://github.com/git-mare/go/blob/main/exemplo-package/)
     - [Arquivo principal da estrutura de um projeto](https://github.com/git-mare/go/blob/main/exemplo-package/main.go)
     - Para criar um projeto na própria máquina, é necessário inicia-los no diretório em que o Go foi instalado.
-    - Para descobrir onde foi instalado, digite no terminal: go env GOPATH. Navegue até o diretório retornado pelo terminal e crie uma pasta chamada src.
-    - Após estar no diretório do projeto, digite no terminal: go mod init NomeDaPasta.
-    - Depois de todos estes passos, será possível executar o arquivo main, que irá puxar os arquivos importados.
+    - Para descobrir onde foi instalado, digite no terminal: go env GOPATH. Navegue até o diretório retornado pelo terminal e crie uma pasta chamada src. Nela, crie a pasta em que seu projeto será desenvolvido.
+    - Exemplo: C:\Users\[USERNAME]\go\src\exemplo-package
+    - Após estar no diretório do projeto, digite no terminal: go mod init exemplo-package.
+    - Este comando irá criar um arquivo que vai gerenciar a lista de pacotes necessárias para que o projeto possa ser executado.
+    - Depois de todos estes passos, será possível executar o arquivo main sem problemas, utilizando no terminal o comando go run main.go (ou o nome do arquivo principal que você criou para seu projeto)
     
 - Variáveis
     - Uma variável não pode ser declarada sem um propósito. Caso contrário o código não roda.
