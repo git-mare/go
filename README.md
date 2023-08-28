@@ -33,33 +33,33 @@
         - Saída: true
     - [Exemplo completo em código](https://github.com/git-mare/go/blob/main/operadores/main.go)
 
+## Recursos Adicionais
+- [Layout padrão de projetos em Go](https://github.com/golang-standards/project-layout/blob/master/README_ptBR.md)
+- [Guia para GO](https://github.com/caioreix/go4noobs#go4noobs)
+- Livro: "The Go Programming Language" - Alan A. A. Donovan, Brian W. Kernighan
+- [Site Oficial](https://golang.org/)
 
-
-## Tópicos ainda não vistos
+# Tópicos ainda não vistos
 - Tipos de Dados
 - Estruturas de Controle (if, for, switch)
 - Funções e Escopo
 - Arrays e Slices
 
-## Ponteiros e Estruturas
+### Ponteiros e Estruturas
 - Ponteiros e Referências
 - Structs e Tipos Embutidos
 - Métodos em Structs
 
-## Interfaces e Goroutines
+### Interfaces e Goroutines
 - Interfaces e Composição
 - Concorrência com Goroutines
 - Canais (Channels) e Goroutines
 
-## Pacotes e Testes
+### Pacotes e Testes
 - Organização em Pacotes
 - Testes e Benchmarking
 - Documentação em Go (godoc)
 
-## Exemplos de Aplicações
+### Exemplos de Aplicações
 - Aplicação de Linha de Comando
 - Web Services com o Pacote "net/http"
-
-## Recursos Adicionais
-- Livro: "The Go Programming Language" - Alan A. A. Donovan, Brian W. Kernighan
-- Site Oficial: https://golang.org/
