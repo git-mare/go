@@ -6,6 +6,7 @@ import (
 
 func main() {
 	var weight, height float64
+	var category string
 
 	fmt.Print("Insira seu peso (KG): ")
 	fmt.Scan(&weight)
@@ -16,11 +17,14 @@ func main() {
 	imc := weight / (height * height)
 
 	if imc < 18.5 {
-		fmt.Printf("Abaixo do peso.")
+		category = fmt.Sprintf("Abaixo do peso.")
 	} else if 18.5 <= imc && imc < 24.9 {
-		fmt.Printf("Peso normal.")
+		category = fmt.Sprintf("Peso normal.")
 	} else if 29.9 <= imc {
-		fmt.Printf("Obesidade.")
+		category = fmt.Sprintf("Obesidade.")
 	}
+
+	fmt.Printf("Seu IMC é %.1f\n", imc)
+	fmt.Println("Categoria: ", category)
 
 }
