@@ -1,5 +1,9 @@
 package operations
 
+import (
+	"fmt"
+)
+
 func Add(a, b int) int {
 	return a + b
 }
@@ -20,11 +24,12 @@ func Comp(a, b int) string {
 	var result string
 
 	if a > b {
-		result = "o primeiro valor é maior que o segundo"
+		result = fmt.Sprintf("%v é maior que %v", a, b)
 	} else if a < b {
-		result = "o primeiro valor é menor que o segundo"
+		result = fmt.Sprintf("%v é menor que %v", a, b)
 	} else {
-		result = "os numeros são iguais."
+		result = fmt.Sprintf("Os numeros são iguais. (%v)", a)
 	}
+
 	return result
 }
