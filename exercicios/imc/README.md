@@ -12,3 +12,10 @@
   - 18.5 <= IMC < 24.9: Peso normal
   - 24.9 <= IMC < 29.9: Sobrepeso
   - 29.9 <= IMC: Obesidade
+
+### Exemplo de saída:
+- Digite seu peso (kg): 70
+- Digite sua altura (m): 1.75
+- Seu IMC é: 22.86
+- Categoria: Peso normal
+
