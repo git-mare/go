@@ -15,3 +15,16 @@ func Div(a, b int) int {
 func Mult(a, b int) int {
 	return a * b
 }
+
+func Comp(a, b int) string {
+	var result string
+
+	if a > b {
+		result = "o primeiro valor é maior que o segundo"
+	} else if a < b {
+		result = "o primeiro valor é menor que o segundo"
+	} else {
+		result = "os numeros são iguais."
+	}
+	return result
+}
