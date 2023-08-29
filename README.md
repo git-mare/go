@@ -44,7 +44,7 @@
 - [Site Oficial](https://golang.org/)
 
 # Tópicos ainda não vistos
-- Estruturas de Controle (for)
+- Estrutura de Controle `for`
 - Arrays e Slices
 
 ### Ponteiros e Estruturas
