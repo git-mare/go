@@ -44,9 +44,7 @@
 - [Site Oficial](https://golang.org/)
 
 # Tópicos ainda não vistos
-- Tipos de Dados
-- Estruturas de Controle (if, for, switch)
-- Funções e Escopo
+- Estruturas de Controle (for)
 - Arrays e Slices
 
 ### Ponteiros e Estruturas
