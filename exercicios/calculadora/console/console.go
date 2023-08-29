@@ -7,7 +7,7 @@ import (
 	"reflect"
 )
 
-func Answers() int {
+func Calc() int {
 	var num1, num2, result int
 	var op string
 
