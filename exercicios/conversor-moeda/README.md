@@ -12,12 +12,14 @@ Escolha a moeda de origem:
 1. Dólar (USD)
 2. Euro (EUR)
 3. Real (BRL)
+   
 Opção: 2
 
 Escolha a moeda de destino:
 1. Dólar (USD)
 2. Euro (EUR)
 3. Real (BRL)
+   
 Opção: 1
 
 Digite o valor a ser convertido: 100
