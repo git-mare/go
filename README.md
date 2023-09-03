@@ -38,15 +38,14 @@
   - Quando o tipo de uma variável é declarada, ele não pode ser modificado. Se uma variável for declarada *int*, ela receberá valores *int* e nada mais.
     
 - Pacote fmt
-  - Print
-      - Println: imprime o que foi pedido e insere uma linha nova após a impressão.
-      - Print: somente imprime o que foi pedido.
-  - Fprint
-      - asdas
-  - Sprint
-      - O valor vai ser salvo em uma string (não será impresso na tela). Poderá ser armazenado dentro de uma variável e utilizado num Println.
-      - [Exemplo](https://github.com/git-mare/go/blob/main/exemplos/fmt/main.go)
-      - 
+  - `fmt.Print()`: somente imprime o que foi pedido.
+  - `fmt.Println()`: imprime o que foi pedido e insere uma linha nova após a impressão.
+  - `fmt.Printf()`: utilizado para imprimir valores que possuam variaveis junto de string. [Exemplo](https://github.com/git-mare/go/blob/main/exemplos/fmt/main.go?plain=1#L8&L9)
+
+  - `fmt.Sprint()`: O valor vai ser salvo em uma string (não será impresso na tela). Poderá ser armazenado dentro de uma variável e utilizado num `fmt.Println()`. [Exemplo](https://github.com/git-mare/go/blob/main/exemplos/fmt/main.go?plain=1#L12-L15)
+    
+  - `fmt.Sprintf()`:
+  - `fmt.Fprint()`:
 ## Recursos Adicionais
 - [Layout padrão de projetos em Go](https://github.com/golang-standards/project-layout/blob/master/README_ptBR.md)
 - [Guia para GO](https://github.com/caioreix/go4noobs#go4noobs)
